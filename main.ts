@@ -90,7 +90,7 @@ input.onButtonPressed(Button.AB, function () {
 })
 input.onButtonPressed(Button.B, function () {
     while (continieer == 1) {
-        music.playMelody("C5 C C5 C C5 C C5 C ", 140)
+        music.playMelody("C5 C C5 C C5 C C5 C ", 142)
     }
     while (continieer != 0) {
         basic.clearScreen()
