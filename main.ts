@@ -78,6 +78,9 @@ input.onButtonPressed(Button.A, function () {
             . . # # #
             `)
     }
+    while ((0 as any) != (1 as any)) {
+        basic.clearScreen()
+    }
 })
 function _break () {
     continieer = 0
@@ -88,6 +91,9 @@ input.onButtonPressed(Button.AB, function () {
 input.onButtonPressed(Button.B, function () {
     while (continieer == 1) {
         music.playMelody("C5 C C5 C C5 C C5 C ", 140)
+    }
+    while (continieer != 0) {
+        basic.clearScreen()
     }
 })
 basic.forever(function () {
